@@ -15,3 +15,8 @@
 .DS_Store
 .prettierignore
 README*
+node_modules
+package-lock.json
+package.json
+Gruntfile.js
+

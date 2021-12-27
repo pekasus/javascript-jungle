@@ -1,0 +1,77 @@
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Bellefair', serif; */
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url("assets/home/background-home-desktop.jpg");
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-image: url("assets/home/background-home-tablet.jpg");
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    background-image: url("assets/home/background-home-mobile.jpg");
+  }
+}
+
+h3 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28;
+  font-weight: lighter;
+  color: #D0D6F9;
+}
+
+p {
+  font-family: "Barlow";
+  font-size: 18px;
+  color: #D0D6F9;
+}
+
+nav>.container-fluid {
+  padding-right: 0;
+}
+
+.navbar-brand {
+  padding: 15px;
+  margin: 20px;
+  align-content: flex-start;
+  /* display: inline; */
+}
+
+.navbar-nav {
+  align-content: flex-end;
+  padding: 20px 40px;
+  margin: 20px 0 20px 50px;
+  backdrop-filter: blur(20px);
+}
+
+.nav-item {
+  padding-left: 40px;
+}
+
+a.nav-link {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 200;
+}
+
+span.bold-numbers {
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.space-p {
+  margin: 250px 150px;
+  width: 450px;
+}
+
+.space-text {
+  font-family: "Bellefair";
+  font-size: 150px;
+  color: #FFF;
+}
