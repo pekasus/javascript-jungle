@@ -47,6 +47,7 @@ nav>.container-fluid {
   padding: 20px 40px;
   margin: 20px 0 20px 50px;
   backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.07);
 }
 
 .nav-item {
@@ -74,4 +75,18 @@ span.bold-numbers {
   font-family: "Bellefair";
   font-size: 150px;
   color: #FFF;
+}
+
+.explore {
+  width: 274px;
+  height: 274px;
+  border-radius: 250px;
+  background-color: #FFF;
+  margin: 320px 0 0 200px;
+}
+
+.explore-text {
+  font-family: "Bellefair";
+  font-size: 50px;
+  margin: 100px 0 0 60px;
 }
